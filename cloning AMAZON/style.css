@@ -66,6 +66,7 @@
     text-align: left;
     color: grey;
 }
+
 .search2{
     width: 1000px ;
     font-size: 1rem;
@@ -83,6 +84,7 @@
     display: flex;
     border: none;
 }
+
 .flag{
     height: 20px;
     width: 20px;
@@ -94,6 +96,7 @@
 .hello{
     font-size: 0.7rem;
 }
+
 .lists{
     font-size: 0.9rem;
     font-weight: bold;
@@ -106,9 +109,11 @@
     height: 50px;
     width: 80px
 }
+
 .returns{
     font-size: 0.7rem;
 }
+
 .return1{
     font-size: 0.9rem;
     font-weight: bold;
@@ -136,9 +141,11 @@
     color: white;
     align-items: center;
 }
+
 .menu{
     margin: 25px;
 }
+
 .menu-ops p{
     display: inline;
     margin-left: 15px;
@@ -149,6 +156,7 @@
     font-size: 0.8rem;
 }
 
+/*main body area*/
 body{
     background-color: rgb(241, 237, 237);
 }
@@ -173,9 +181,9 @@ h3{
     display: flex;
     flex-wrap: wrap;
     width: 94%;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
+
 .part2{
     height: 330px;
     width: 300px;
@@ -346,6 +354,7 @@ h3{
 
 .new{
     font-size: 0.6rem;
+    margin-top: 5px;
 }
 
 .link{
@@ -367,7 +376,6 @@ h3{
     background-color: rgb(14, 14, 69);
     color: rgb(183, 181, 181);
     border-bottom: 0.5px solid rgb(214, 212, 212);
-
 }
 
 .big{
@@ -389,6 +397,8 @@ h3{
     padding-top: 15px;
     font-size: 0.9rem;
 }
+
+/*last panel*/
 .end1{
     display: flex;
     justify-content: center;
