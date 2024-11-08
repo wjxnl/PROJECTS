@@ -194,7 +194,7 @@ h3{
 }
 
 .shop{
-    margin-left: 15px;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 25px;
     font-size: 0.9rem;
@@ -204,7 +204,7 @@ h3{
     text-decoration: none;
     color: #007185;
     font-size: 0.9rem;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .part3{
     height: 330px;
@@ -219,7 +219,7 @@ h3{
     background-image: url(img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part4{
@@ -235,7 +235,7 @@ h3{
     background-image: url(img4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part5{
@@ -251,7 +251,7 @@ h3{
     background-image: url(img5.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part6{
@@ -261,13 +261,13 @@ h3{
     margin-left: 95px;
 }
 
-.headsets{
+.jeans{
     height: 150px;
     width: 270px;
-    background-image: url(img2.jpg);
+    background-image: url(img6.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part7{
@@ -277,13 +277,13 @@ h3{
     margin-left: 95px;
 }
 
-.headsets{
+.cooker{
     height: 150px;
     width: 270px;
-    background-image: url(img2.jpg);
+    background-image: url(img7.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part8{
@@ -293,13 +293,13 @@ h3{
     margin-left: 95px;
 }
 
-.headsets{
+.cpu{
     height: 150px;
     width: 270px;
-    background-image: url(img2.jpg);
+    background-image: url(img8.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .part9{
@@ -309,13 +309,13 @@ h3{
     margin-left: 95px;
 }
 
-.headsets{
+.toy{
     height: 150px;
     width: 270px;
-    background-image: url(img2.jpg);
+    background-image: url(img9.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 /*for footer*/
@@ -324,10 +324,14 @@ h3{
     background-color: white;
     border: 0.5px solid rgb(214, 212, 212);
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .see{
-    text-align: center;
     margin-top: 35px;
     margin-bottom: 15px;
 }
@@ -336,17 +340,66 @@ h3{
     background-color: rgb(244, 135, 95);
     height: 30px;
     width: 200px;
-    display: block;
     border: none;
     border-radius: 5px;
 }
 
 .new{
-    text-align: center;
     font-size: 0.6rem;
 }
 
 .link{
     text-decoration: none;
     color: green;
+}
+
+.top{
+    background-color: rgb(102, 102, 102);
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    background-color: rgb(14, 14, 69);
+    color: rgb(183, 181, 181);
+    border-bottom: 0.5px solid rgb(214, 212, 212);
+
+}
+
+.big{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font: 1rem;
+    color: white;
+}
+
+.bottom p{
+    font: 0.9rem;
+    padding: 4px;
+}
+
+.end{
+    height:70px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    padding-top: 15px;
+    font-size: 0.9rem;
+}
+.end1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+
+.end1 p{
+    margin: 6px;
+}
+
+.end2{
+    display: flex;
+    justify-content: center;
 }
