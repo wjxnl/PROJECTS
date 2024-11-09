@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.content{
+    display: flex;
+}
+
+/*For leftmost content*/
+.left{
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 75%;
+    background-color: black;
+    margin-left: 100px;
+}
+
+.twitter{
+    width: 50px;
+    height: 30px;
+    background-image: url(img1.png);
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    left: 60px;
+    margin-bottom: 40px;
+}
+
+.one{
+   margin-bottom: 32px; 
+   margin-left: 70px;
+   font-size: 1.1rem;
+   font-weight: bold;
+   color: white;
+   background-color: black;
+}
+
+.one i{
+    margin-right: 15px;
+}
+
+.post{
+    width: 240px;
+    height: 50px;
+    background-color: #1d9bf0;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 60px;
+}
+
+.profile{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: white;
+}
+
+.profilepic{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.info{
+    margin-left: 10px;
+    font-size: 0.95rem;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.menu{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+/*for main feed*/
+.middle{
+    width: 50%;
+    height: 100vh;
+    background-color: navy;
+}
+
+/*for rightmost content*/
+.right{
+    width: 25%;
+    height: 100vh;
+    background-color: pink;
+}
+
