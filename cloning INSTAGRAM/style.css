@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 400px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .left{
@@ -41,6 +41,7 @@
     top: 70px;
     right: 100px;
 }
+
 .instagram{
     background-image: url(img5.png);
     background-size: cover;
@@ -185,4 +186,27 @@
     border: none;
     margin-right: 20px;
     color: #737373;
+}
+
+@media (max-width: 1400px){
+    .box{
+        margin-left: 0px;
+    }
+    .left{
+        display: none;
+    }
+    /*for footer*/   
+    .bottom{
+        font-size: 0.6rem; 
+        width: 900px;
+    }
+    .bottom1 p{
+        margin: 4px;
+    }
+    .bottom2{
+        margin-top: 20px;
+    }
+    .language{
+        font-size: 0.6rem;
+    }
 }
