@@ -40,7 +40,8 @@ const disableBoxes = () => {
 const enableBoxes = () => {
     for (let box of boxes) {
         box.disabled = false;
-        box.innerText = "";
+        box.innerText = ""; 
+        count = 0;
     }
 };
 
@@ -58,10 +59,12 @@ const gameDraw = () => {
 boxes.forEach((box ) => {
     box.addEventListener("click", () => {
         if (turn0){
+            box.style.color = "red";
             box.innerText = "O";
             turn0 = false;
         }
         else{
+            box.style.color = "green";
             box.innerText = "X";
             turn0 = true;
         }
