@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.image:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+
+#msg{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: brown;
+}
